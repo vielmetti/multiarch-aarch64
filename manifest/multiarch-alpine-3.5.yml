@@ -1,0 +1,18 @@
+# amd64: alpine:3.5
+# arm64: aarch64/alpine:3.5
+# arm: armhf/alpine:3.5
+
+image: vielmetti/multiarch-alpine:3.5
+manifests:
+  - image: alpine:3.5
+    platform:
+      architecture: amd64
+      os: linux
+  - image: aarch64/alpine:3.5
+    platform:
+      architecture: arm64
+      os: linux
+  - image: armhf/alpine:3.5
+    platform:
+      architecture: arm
+      os: linux
