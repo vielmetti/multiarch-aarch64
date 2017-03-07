@@ -1,6 +1,8 @@
 # arm64: atzoum/aarch64-gitea:latest
 # amd64: gitea/gitea:latest
 # arm: ???
+#
+# usage: manifest-tool push from-spec multiarch-gitea-latest.yml
 
 image: vielmetti/multiarch-gitea:latest
 manifests:
