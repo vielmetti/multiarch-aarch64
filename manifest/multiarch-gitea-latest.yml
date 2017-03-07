@@ -1,3 +1,14 @@
 # arm64: atzoum/aarch64-gitea:latest
 # amd64: gitea/gitea:latest
 # arm: ???
+
+image: vielmetti/multiarch-gitea:latest
+manifests:
+  - image: gitea/gitea:latest
+    platform:
+      architecture: amd64
+      os: linux
+  - image: atzoum/aarch64-gitea:latest
+    platform:
+      architecture: arm64
+      os: linux
