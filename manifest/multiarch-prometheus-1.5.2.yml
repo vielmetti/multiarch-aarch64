@@ -1,0 +1,13 @@
+# amd64: prometheus:v1.5.2
+# arm64: alexellis2/prometheus:1.5.2-arm64
+
+image: vielmetti/multiarch-prometheus:1.5.2
+manifests:
+  - image: prometheus:v1.5.2
+    platform:
+      architecture: amd64
+      os: linux
+  - image: alexellis2/prometheus:1.5.2-arm64
+    platform:
+      architecture: arm64
+      os: linux
