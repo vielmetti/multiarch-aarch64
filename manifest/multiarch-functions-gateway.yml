@@ -1,0 +1,18 @@
+# amd64: functions/gateway:0.6.6b
+# arm64: functions/gateway:arm64-0.6.6b
+# arm: functions/gateway:armhf-0.6.6b
+
+image: vielmetti/multiarch-functions-gateway:0.6.6b
+manifests:
+  - image: functions/gateway:0.6.6b
+    platform:
+      architecture: amd64
+      os: linux
+  - image: functions/gateway:arm64-0.6.6b
+    platform:
+      architecture: arm64
+      os: linux
+  - image: functions/gateway:armhf-0.6.6b
+    platform:
+      architecture: arm
+      os: linux
