@@ -3,7 +3,7 @@
 
 image: vielmetti/multiarch-prometheus:1.5.2
 manifests:
-  - image: prometheus:v1.5.2
+  - image: prom/prometheus:v1.5.2
     platform:
       architecture: amd64
       os: linux
