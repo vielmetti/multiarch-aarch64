@@ -12,7 +12,8 @@ creating multiarch images, using the code from
 https://github.com/estesp/manifest-tool as its starting
 point.
 
-Each of the manifest/*.yml files can be run as follows:
+Each of the `manifest/*.yml` files can be run as follows:
 
+```
 manifest-tool push from-spec manifest/multiarch-package-version.yml
-
+```
