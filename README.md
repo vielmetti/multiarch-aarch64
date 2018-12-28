@@ -1,4 +1,11 @@
-# multiarch-aarch64
+# This repository is frozen
+
+It's not being actively updated, and it's not clear that it's
+the best idea. So I'm freezing this repository so that it's
+very clear that if you decide to care about it you should fork it
+and continue on your own.
+
+## multiarch-aarch64
 Manifests for Docker multiarch images that include unofficial aarch64 builds
 
 The grand vision is of a world where all of the official Docker
